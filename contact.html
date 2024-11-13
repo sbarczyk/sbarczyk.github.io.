@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napisz do nas!</title>
+    <!-- Link to stylesheets for contact form, header, and footer -->
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+    <!-- Header navigation -->
+    <header>
+        <nav>
+          <a href="index.html">Strona główna</a>
+          <a href="gallery.html">Galeria</a>
+          <a href="contact.html">Kontakt</a>
+        </nav>
+    </header>
+    
+    <div class="contact-form">
+        <h1>Skontaktuj się z nami!</h1>
+        <!-- Contact form structure -->
+        <form action="#" method="post">
+            <div class="input-field">
+                <input type="text" placeholder="Imię" required>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Nazwisko" required>
+            </div>
+            <div class="input-field">
+                <input type="email" placeholder="Adres E-mail" required>
+            </div>
+            <div class="input-field select-wrapper">
+                <select required>
+                    <option value="">Wybierz temat</option>
+                    <option value="pytanie">Pytanie</option>
+                    <option value="wsparcie">Wsparcie</option>
+                    <option value="inne">Inne</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <textarea placeholder="Wprowadź wiadomość" rows="4" required></textarea>
+            </div>
+            <div class="input-field">
+                <input type="submit" value="Wyślij wiadomość">
+            </div>
+        </form>
+    </div>
+    
+    <!-- Footer with author name -->
+    <footer>
+        <p>Szymon Barczyk</p>
+    </footer>
+
+    <!-- Link to JavaScript validation script -->
+    <script src="validation.js"></script>
+        
+</body>
+</html>
